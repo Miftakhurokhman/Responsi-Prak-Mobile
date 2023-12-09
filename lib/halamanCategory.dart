@@ -80,6 +80,7 @@ class _HalamanCategoryState extends State<HalamanCategory> {
                                 image: NetworkImage(meal.strMealThumb),
                                 fit: BoxFit.cover,
                               ),
+                              borderRadius: BorderRadius.only(topRight: Radius.circular(10), topLeft: Radius.circular(10))
                             ),
                           ),
                           Padding(
